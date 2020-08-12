@@ -1,6 +1,8 @@
 ##Demo preview
 https://shelbytwitter-clone.web.app/
 
+Still in process Todos are additional ui styling authenication and dynamic what's happening.
+and link function.
 
 
 
