@@ -1,3 +1,11 @@
+##Demo preview
+https://shelbytwitter-clone.web.app/
+
+Still in process Todos are additional ui styling authenication and dynamic what's happening.
+and link function.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
