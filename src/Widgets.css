@@ -1,6 +1,9 @@
 .widgets{
-flex: 0.3;
+flex: 0.25;
+
 }
+
+
 
 .widgets__input {
     display:flex;
@@ -32,4 +35,9 @@ flex: 0.3;
   .widgets__widgetContainer > h2 {
     font-size: 18px;
     font-weight: 800;
+  }
+
+
+  .widget__TimelineEmbed {
+    overflow-y: scroll;
   }

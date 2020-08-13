@@ -12,8 +12,7 @@ function Feed() {
     db.collection("posts").onSnapshot((snapshot) =>
       setPosts(snapshot.docs.map((doc) =>  {
          const data = doc.data();
-		       data.id = doc.id;
-	    	 console.log(data);
+           data.id = doc.id;
 		 return data;
 	  }))
     );
