@@ -1,0 +1,50 @@
+.gifPopup__worldContainer {
+    display:flex;
+    flex-direction: row;
+    margin-left: 10px;
+    color:var(--twitter-color);
+    font-style: normal;
+}
+
+.gifPopup__world {
+display: flex;
+}
+
+
+.gifPopup__world:hover{
+  background-color: #e8f5fe;
+  border-radius: 30px;
+  color: var(--twitter-color);
+  transition: color 100ms ease-out
+}
+
+.gifPopup__publicIcon {
+    padding-right: 5px;
+}
+
+
+.gifPopup__boxFooter > .MuiSvgIcon-root {
+  color:var(--twitter-color);  
+  padding: 10px;
+  cursor: pointer;
+}
+
+.gifPopup__boxFooter > .MuiSvgIcon-root:hover{
+  background-color: #e8f5fe;
+  border-radius: 30px;
+  color: var(--twitter-color);
+  transition: color 100ms ease-out
+}
+
+
+.gifPopup__gifSearch{
+    display:flex;
+	flex:1;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+	width:250px;
+}
