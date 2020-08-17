@@ -35,14 +35,51 @@ display: flex;
 }
 
 
-.gifPopup__gifSearch{
-    display:flex;
-	flex:1;
-    align-items: center;
-    background-color: var(--twitter-background);
+.gifPopup__gifSearch {    
+    border: 1px solid var(--twitter-color);
     padding: 10px;
     border-radius: 20px;
     margin-top: 10px;
     margin-left: 20px;
-	width:250px;
+    width: 475px;
+}
+
+.gif__searchContainer input::-webkit-input-placeholder {
+  padding-left: 30px;
+}
+
+
+.gif__searchIcon{
+  position: relative;
+  left:55px;
+  top:18px;
+  color:var(--twitter-color);
+}
+
+
+
+
+.animatedgifContainer{
+  display:flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+
+.gif__searchContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+.Component-closeButton-2{
+  height: 40px;
+  color: var(--twitter-color) !important;
+}
+
+.Component-closeButton-2:hover{
+  background-color:rgba(28, 160, 242, 0.20) !important;
+  color: var(--twitter-color);
+  transition: color 100ms ease-out
 }
